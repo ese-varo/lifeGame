@@ -87,7 +87,7 @@ function getReady (){
       for(let j = 0; j < randomInitializedCells; j++){
         let x = getRandom(15, 30);
         let y = getRandom(15, 30);
-        //cells[x][y].alive = true;
+        cells[x][y].alive = true;
       }
     }
   }
